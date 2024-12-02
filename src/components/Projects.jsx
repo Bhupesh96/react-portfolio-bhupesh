@@ -21,6 +21,7 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4"
             >
+              <a href={project.url}>
               <img
                 src={project.image}
                 width={200}
@@ -28,7 +29,7 @@ const Projects = () => {
                 alt={project.title}
                 className="mb-6 rounded"
               />
-              <a href={project.url} className="font-semibold mx-5">Git Link</a>
+              </a>
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
