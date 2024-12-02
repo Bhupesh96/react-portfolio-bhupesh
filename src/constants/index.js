@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/Project1.png";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project2 from "../assets/projects/InvoiceApp.png";
+import project3 from "../assets/projects/DailyNews.png";
+import project4 from "../assets/projects/Doctor.png";
 
 export const HERO_CONTENT = `
 I am a passionate Full Stack Developer with a knack for building efficient and scalable web applications. With 2 years of backend experience in Java, Spring Boot, and Node.js, and 1 year of expertise in frontend technologies like ReactJS, Tailwind CSS, MaterialUI and Bootstrap, I specialize in creating seamless user experiences. Proficient in databases like MySQL and MongoDB, I strive to deliver innovative solutions that meet client needs and drive business success.`;
@@ -50,7 +50,33 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    url:"https://github.com/Bhupesh96/react-portfolio-bhupesh"
   },
+  {
+    title: "Invoice Generator",
+    image: project2,
+    description:
+      "Developed a user-friendly invoice generation application using ReactJS. The app allows users to create, customize, and manage invoices efficiently. It features dynamic form handling, real-time calculations, and a responsive design for seamless use across devices.",
+    technologies: ["HTML", "CSS", "React", "Tailwind Css"],
+    url:"https://github.com/Bhupesh96/Invoice-Generator"
+  },
+  {
+    title: "Daily News",
+    image: project3,
+    description:
+      "Built a daily news application using Node.js and NewsAPI. The app fetches and displays real-time news articles from various categories, featuring API integration, efficient data handling, and a clean, user-friendly interface.",
+    technologies: ["HTML", "CSS", "React", "Tailwind Css", "NewsAPI", "NodeJs"],
+    url:"https://github.com/Bhupesh96/NewsAppUsingReact"
+  },
+  {
+    title: "Doctor Appointment System",
+    image: project4,
+    description:
+      " Designed and developed a full-stack doctor appointment platform enabling doctor and patient registration, appointment booking, and secure payment processing with Stripe integration. Features include user authentication, role-based dashboards, and a seamless booking experience.",
+    technologies: ["React", "Tailwind Css", "Stripe Payment", "NodeJs", "MongoDB"],
+    url:"https://github.com/Bhupesh96/Doctor-Appointment-Booking-App-React-NodeJs"
+  },
+ 
  
 ];
 
