@@ -11,7 +11,7 @@ I am a dedicated and versatile Full Stack Developer passionate about designing s
 
 export const EXPERIENCES = [
   {
-    year: "01/2023 - 02/2024",
+    year: "01/2023 - 03/2024",
     role: "Associate Software Engineer",
     company: "Tech Mahindra Ltd. Pune",
     description: `Led the development and implementation of robust software solutions, collaborating closely with development and
